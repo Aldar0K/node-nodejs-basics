@@ -2,10 +2,10 @@ import fsp from 'fs/promises';
 import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
 
-const _filename = fileURLToPath(import.meta.url);
-const _dirname = dirname(_filename);
-
 const create = async () => {
+    const _filename = fileURLToPath(import.meta.url);
+    const _dirname = dirname(_filename);
+
     const fileName = 'fresh.txt';
     const filePath = path.join(_dirname, '/files', fileName);
     const content = 'I am fresh and young';
