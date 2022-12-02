@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 const read = async () => {
     const _filename = fileURLToPath(import.meta.url);
     const _dirname = dirname(_filename);
-    const errorMessage = 'FS operation failed';
+    const errorMessage = 'Stream operation failed';
 
     const fileName = 'fileToRead.txt';
     const filePath = path.join(_dirname, 'files', fileName);
