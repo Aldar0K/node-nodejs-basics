@@ -22,7 +22,7 @@ const transform = async () => {
         transform,
         output,
         error => {
-            console.log(`Errpr: ${error.message}`);
+            console.log(`Error: ${error.message}`);
         }
     )
 };
