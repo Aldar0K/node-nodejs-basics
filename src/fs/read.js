@@ -1,6 +1,5 @@
 import fs from 'fs';
 import fsp from 'fs/promises';
-import { readFile } from 'fs/promises';
 import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
 
